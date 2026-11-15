@@ -167,7 +167,7 @@ footer p:last-child {
 }
 
 /* This is for the card images */
-.card-image-top {
+.card-img-top {  
   display: block;
   width: 100%;
   height: 200px;
