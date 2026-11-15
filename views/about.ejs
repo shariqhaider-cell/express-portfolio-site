@@ -1,0 +1,31 @@
+<%- include('partials/header', {title: 'About Me'}) %>
+
+<div class="container mt-5">
+
+    <h1 class="text-center">About Me</h1>
+
+    <hr>
+
+
+    <p class="about-description text-center">
+        I am majoring in Networking and IT Security at Ontario Tech University.
+        I am interested in IT support, networking and learning more about new technology.
+    </p>
+
+    <div class="row justify-content-center g-5 mt-4">
+
+        <div class="col-auto">
+            <img src="/images/image234.jpg" alt="My photo" width="300" class="about-photo">
+        </div>
+
+        <div class="col-auto">
+            <video width="300" height="350" controls poster="/images/image234.jpg" class="about-video"> 
+                <source src="/videos/about-me.mp4" type="video/mp4">
+            </video>
+        </div>    
+    
+    </div>
+
+</div>
+
+<%- include('partials/footer') %>

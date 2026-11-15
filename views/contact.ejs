@@ -1,0 +1,53 @@
+<%- include('partials/header', {title:'Contact Me'}) %>
+
+<div class="container mt-5">
+
+    <h1 class="text-center">Contact Me</h1>
+
+    <hr>
+
+    <main>
+        <article class="contact-form">
+            <h2>Contact Form</h2>
+            <p>Please fill out the form below to contact me.</p>
+
+            <!--This is the contact form-->
+            <form>
+                <label for="name">Name:</label>  <!--This is for the name-->
+                <input type="text" id="name" name="name" required>
+                
+                <br><br>
+                
+                <label for="email">Email:</label> <!--This is for the email-->
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <!--This is for the phone number-->
+                <label for="phone">Phone Number:</label> 
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="10-digit number" required>
+
+                <br><br>
+
+                <!--This is for the comments-->
+                <label for="comments">Comments:</label>
+                <br>
+                <textarea id="comments" name="comments" rows="5" cols="30" required></textarea>
+
+                <br><br>
+
+                <!--This is the submit button-->
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+
+        <article class="contact-information">
+            <h2>Have a Question?</h2>
+            <p>Have a question or want to get in touch? Fill out the form and I'll get back to you.</p>
+            <p>I look forward to hearing from you!</p>
+        </article>
+    </main>
+
+</div>
+
+<%- include('partials/footer') %>
