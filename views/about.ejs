@@ -1,23 +1,43 @@
+<!-- This adds the header to the about page -->
 <%- include('partials/header', {title: 'About Me'}) %>
 
+<!-- This is the main container for the about page -->
 <div class="container mt-5">
 
+    <!-- This displays the "About Me" heading -->
     <h1 class="text-center">About Me</h1>
 
     <hr>
 
-
+    <!-- This displays the description about me -->
     <p class="about-description text-center">
         I am majoring in Networking and IT Security at Ontario Tech University.
         I am interested in IT support, networking and learning more about new technology.
     </p>
 
+    <hr>
+
+    <!-- This displays the career goal -->
+    <div class="text-center mt-4">
+    <h2>My Career Goal</h2>
+    <p>
+        My goal is to become an IT support specialist and work in networking. 
+        I want to improve my skills, gain hands-on experience, and learn more 
+        about network security and troubleshooting.
+    </p>
+</div>
+
+<hr>
+
+    <!-- This displays the photo and video side by side -->
     <div class="row justify-content-center g-5 mt-4">
 
+        <!-- This displays the photo of me -->
         <div class="col-auto">
             <img src="/images/image234.jpg" alt="My photo" width="300" class="about-photo">
         </div>
 
+        <!-- This displays the video of me -->
         <div class="col-auto">
             <video width="300" height="350" controls poster="/images/image234.jpg" class="about-video"> 
                 <source src="/videos/about-me.mp4" type="video/mp4">
@@ -28,4 +48,5 @@
 
 </div>
 
+<!-- This adds the footer to the about page -->
 <%- include('partials/footer') %>
