@@ -15,19 +15,20 @@ The website showcases my background, projects, and contact information.
 - Font Awesome 
 
 ## Features
-- This is the Home page with a welcome message.
-- This is the About Me page that has my photo and video.
-- The projects page shows all the projects I have completed.
-- The Contact Me page has a contact form.
-- The navigation bar helps visitors move between pages.
+- The Home page displays a welcome message.
+- The About Me page includes my photo and video.
+- The Projects page showcases the projects I have completed.
+- The Contact Me page includes a contact form.
+- The navigation bar allows visitors to move between pages.
 - The footer includes my email, GitHub, and LinkedIn links.
 
 ## How to Run the Project
-1. You have to install Node.js.
-2. You have to open the project folder in VS Code.
-3. You have to run npm install.
-4. You have to run npm start.
-5. You have to open http://localhost:3000 in your browser.
+1. Install Node.js.
+2. Open the project folder in VS Code.
+3. Open the terminal in VS Code.
+4. Run npm install.
+5. Run npm start.
+6. Open http://localhost:3000 in your browser.
 
 ## References
 - Bootstrap: https://getbootstrap.com/
