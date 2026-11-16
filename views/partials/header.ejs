@@ -1,44 +1,60 @@
+<!-- This defines the html document -->
 <!DOCTYPE html>
 <html>
+
+<!-- This has the page information and CSS links -->
 <head>
     <meta charset = "UTF-8">
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- This shows the page title using EJS -->
     <title><%= title %></title>
 
+    <!-- This links to the Bootstrap CSS file -->
     <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css'>
+
+    <!-- This links to the Font Awesome CSS file -->
     <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css'>
+
+    <!-- This links to the custom CSS file -->
     <link rel='stylesheet' href='/stylesheets/style.css' />
 
 </head>
 
 <body>
 
+<!-- Navigation Bar -->
 <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
 
+        <!-- This links the portfolio name to the home page -->
         <a class = "navbar-brand" href = "/">My Portfolio</a>
         
+        <!-- Navigation Links -->
         <ul class = "navbar-nav ms-auto">
 
+        <!-- Home Link -->
         <li class="nav-item">
             <a class="nav-link" href="/">
                 <i class = "fa-solid fa-house"></i> Home
             </a>
         </li>
 
+        <!-- About Me Link -->
         <li class="nav-item">
             <a class="nav-link" href="/about">
                 <i class = "fa-solid fa-user"></i> About Me
             </a>
         </li>
 
+        <!-- Projects Link -->
         <li class="nav-item">
                 <a class="nav-link" href="/projects">
                     <i class="fa-solid fa-folder"></i> Projects
                 </a>
             </li>
 
+        <!-- Contact Me Link -->
             <li class="nav-item">
                 <a class="nav-link" href="/contact">
                     <i class="fa-solid fa-phone"></i> Contact Me
@@ -49,4 +65,3 @@
 
     </div>
 </nav>
-
