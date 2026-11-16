@@ -1,7 +1,10 @@
-<%- include('partials/header', {title:'Home'}) %>
+<!-- This adds the header to the home page -->
+<%- include('partials/header', {title:'Home'}) %> 
 
+<!-- This is the main container for the home page -->
 <div class="container mt-5">
 
+    <!-- This displays the welcome message -->
     <div class="text-center">
         <h1>My Portfolio</h1>
         
@@ -14,12 +17,14 @@
 
     <hr>
 
+    <!-- This provides links to other portfolio sections -->
     <h2 class="text-center">Explore My Portfolio</h2>
 
     <p class="text-center">Use the navigation above to explore different sections of my portfolio.</p>
 
-    <div class="row mt-4">
+    <div class="row mt-4"> <!-- This row contains three cards-->
 
+        <!-- This is the "About Me" card -->
         <div class="col-md-4 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
@@ -30,6 +35,7 @@
             </div>
         </div>
 
+        <!-- This is the "My Projects" card -->
         <div class="col-md-4 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
@@ -40,6 +46,7 @@
             </div>
         </div>
 
+        <!-- This is the "Contact Me" card -->
         <div class="col-md-4 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
@@ -51,6 +58,8 @@
         </div>
     </div>
 
+
+<!--This adds the footer to the home page -->
 <%- include('partials/footer') %>
 
 
